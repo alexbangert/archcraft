@@ -3,7 +3,7 @@
 
 iso_name="archcraft"
 iso_label="ARCHCRAFT_$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y%m)"
-iso_publisher="Aditya Shakya <http://www.github.com/adi1090x>"
+iso_publisher="Alex Bangert <http://www.github.com/alexbangert>"
 iso_application="Archcraft Live/Installation/Rescue CD"
 iso_version="$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y.%m.%d)"
 install_dir="arch"
